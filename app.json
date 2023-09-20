@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "formWithLoc",
+    "scheme": "googleauth",
     "slug": "formWithLoc",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,13 +16,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pesquisa.dev"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.pesquisa.dev"
     },
     "web": {
       "favicon": "./assets/favicon.png"
